@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import Header from "../src/resources/components/models/Header";
-import SearchBar from "../src/resources/components/models/SearchBar";
 
 export default function Home() {
   const router = useRouter();
@@ -20,7 +19,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <SearchBar />
     </div>
   );
 }
